@@ -54,7 +54,7 @@ Todo o código do app está em `auditoriafiscal/app/src/main/java/com/example/au
    git clone https://github.com/Fabricio7219/auditoria-fiscal-app.git
    ```
 2. No Android Studio, use **File → Open** e selecione a pasta **`auditoriafiscal`** (a que tem o `settings.gradle.kts`).
-3. Aguarde o **Gradle Sync**. O projeto usa AGP 9.4 e compileSdk 37, então use um Android Studio atualizado.
+3. Aguarde o **Gradle Sync**. O projeto usa AGP 9.1.1 e compileSdk 37; se o Android Studio reclamar da versão do AGP, atualize-o em Help → Check for Updates.
 4. Crie um emulador em **Device Manager** ou conecte um celular com depuração USB.
 5. Clique em **Run ▶** (Shift + F10).
 

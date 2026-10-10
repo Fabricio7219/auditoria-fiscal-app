@@ -22,10 +22,8 @@ android {
 
     buildTypes {
         release {
-            optimization {
-                enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
-            }
+            // AGP 9.1: o bloco optimization {} só existe a partir do AGP 9.3
+            isMinifyEnabled = false
         }
     }
     compileOptions {
